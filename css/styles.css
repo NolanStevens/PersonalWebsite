@@ -1,0 +1,92 @@
+*{
+    margin: auto;
+    padding: auto;
+    border: auto;
+    font-family: 'Source Code Pro', monospace;
+    overflow-x: hidden;
+  }
+
+/* Header */
+header
+{
+
+}
+
+/* Body */
+body
+{
+
+}
+.container
+{
+  /*position: relative; Centered based on image when active*/ 
+  text-align: center;
+  white-space: nowrap;
+  max-width: 100%;
+  max-height: 100%;
+}
+.container img
+{
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+.container h1
+{
+  padding: 0.2em 0.4em 0.4em 0.4em;
+  background-color: rgba(55, 55, 55, 0.85);
+
+  font-size: 5.5em;
+  color: #0bb7b8;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container h2,h3
+{
+  font-size: 1.75em;
+  color: #0bb7b8;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-154%, 100%);
+}
+.container h3
+{
+  transform: translate(-6%, 100%);
+}
+.flexContainer
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 49.5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 175%);
+}
+.flexContainer button
+{
+  padding: 0.15em 1.57em 0.15em 1.75em;
+  background-color: rgba(55, 55, 55, 0.85);
+  font-size: 2em;
+  color: rgb(43, 255, 0);
+  border: none;
+}
+
+/* Footer */
+footer
+{
+    
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px)
+{
+
+}
