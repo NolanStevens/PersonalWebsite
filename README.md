@@ -1,5 +1,5 @@
 # Personal Website: Landing page
-![Version](https://img.shields.io/badge/version-v0.1a-blue?style=for-the-badge) ![Build](https://img.shields.io/badge/build_date-10/05/2020-brightgreen?style=for-the-badge) ![Maintenance](https://img.shields.io/badge/maintained-YES-orange?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-v0.1a-blue?style=for-the-badge) ![Build](https://img.shields.io/badge/build_date-02/01/2021-brightgreen?style=for-the-badge) ![Maintenance](https://img.shields.io/badge/maintained-YES-orange?style=for-the-badge)
 
 A professional personal website coded in HTML, CSS, & JS.
 
@@ -18,7 +18,7 @@ Just click the clone button and download
 
 OR
 
-Type ``` git clone NolanStevens/PersonalWebsite```
+Type ``` git clone https://github.com/NolanStevens/PersonalWebsite```
 
 
 ### TO DO:
