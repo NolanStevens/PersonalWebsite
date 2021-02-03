@@ -6,6 +6,7 @@
     overflow-x: hidden;
     scroll-behavior: smooth;
   }
+ .centeredText {text-align: center;}
 
 /* Name Section */
 .headContainer
@@ -19,6 +20,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -0%);
+  min-width: 100%;
+  min-height: 100%;
 }
 .headContainer h1
 {
@@ -97,7 +100,6 @@
   width: 100%;
   max-width: 25em;
 }
-.centeredText {text-align: center;}
 
 /* Mobile */
 @media only screen and (max-width: 768px)
