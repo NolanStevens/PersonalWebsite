@@ -4,13 +4,17 @@
     border: auto;
      
     overflow-x: hidden;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth;  
+    -ms-overflow-style: none;  /* Hide scrollbar on IE and Edge browsers  */
+    scrollbar-width: none;     /* Hide scrollbar on FireFox based browsers */
   }
+*::-webkit-scrollbar{display: none;} /* Hide scrollbar on Chrome based browsers*/
  .centeredText {text-align: center;}
 
 /* Name Section */
 .headContainer
 {
+  position: relative; /* Name & Buttons position relative to the image instead of the screen*/
   font-family: 'Source Code Pro', monospace;
   text-align: center;
 }
@@ -21,7 +25,6 @@
   left: 50%;
   transform: translate(-50%, -0%);
   min-width: 100%;
-  min-height: 100%;
 }
 .headContainer h1
 {
@@ -89,7 +92,7 @@
 {
   background-color: rgba(27.5, 27.5, 27.5, 1);
 }
-
+/* About Me Section */
 #aboutMe
 {
   font-family: Helvetica, sans-serif;
@@ -104,33 +107,28 @@
 /* Mobile */
 @media only screen and (max-width: 768px)
 {
-/* Name Section */
-.headContainer h1
-{
-  font-size: 2.5em;
-}
+  /* Name Section */
+  .headContainer{ position:unset; /* Name & Buttons position relative to the scree instead of the image*/}
+  .headContainer h1{font-size: 2.5em;}
 
-/* Descriptions*/
-.headContainer h2,h3
-{
-  font-size: 0.8em;
-}
+  /* Descriptions*/
+  .headContainer h2,h3{font-size: 0.8em;}
 
-/*Buttons*/
-.landingButtons
-{
-  width: 15em;
-  transform: translate(-50%, 20%);
-}
-.landingButtons button
-{
-  padding: 0.5em;
-  min-width: 13em;
-  margin-top: 0.5em;
-  background-color: rgba(55, 55, 55, 0.85);
-  font-size: 1.5em;
-  color: #17B300;
-  border: none;
-  cursor: pointer;
-}
+  /*Buttons*/
+  .landingButtons
+  {
+    width: 15em;
+    transform: translate(-50%, 20%);
+  }
+  .landingButtons button
+  {
+    padding: 0.5em;
+    min-width: 13em;
+    margin-top: 0.5em;
+    background-color: rgba(55, 55, 55, 0.85);
+    font-size: 1.5em;
+    color: #17B300;
+    border: none;
+    cursor: pointer;
+  }
 }
