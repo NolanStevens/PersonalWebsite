@@ -1,5 +1,5 @@
 # Personal Website: Landing page
-![Version](https://img.shields.io/badge/version-v0.1a-blue?style=for-the-badge) ![Build](https://img.shields.io/badge/build_date-02/01/2021-brightgreen?style=for-the-badge) ![Maintenance](https://img.shields.io/badge/maintained-YES-orange?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-v0.1a-blue?style=for-the-badge) ![Build](https://img.shields.io/badge/build_date-02/23/2021-brightgreen?style=for-the-badge) ![Maintenance](https://img.shields.io/badge/maintained-YES-orange?style=for-the-badge)
 
 A professional personal website coded in HTML, CSS, & JS.
 
@@ -9,7 +9,9 @@ A professional personal website coded in HTML, CSS, & JS.
 
 # Updates
 
-  - Centered image at all times
+  - Removed server.js
+  - Added projects section
+  - Fixed About Me button sending below About Me's header
 
 
 ### Installation
