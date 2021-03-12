@@ -134,6 +134,10 @@ body
   transform: translatey(-2%);
   width: 30em;
 }
+.projectDesc a:link, a:visited, a:hover, a:active
+{
+  color:#00dd00;
+}
 .flexItem:hover .projectDescContainer {
   opacity: 1;
 }
