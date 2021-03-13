@@ -146,7 +146,7 @@ a:link, a:visited, a:hover, a:active
 /* Contact Section */
 #contact
 {
-  background-color: #444;
+  background-color: #292929;
   color: #fff;
 }
 #contact embed
@@ -155,12 +155,25 @@ a:link, a:visited, a:hover, a:active
   min-width: 50em;
   min-height: 31em;
 }
-#contact label, #contact input[type=text], #contact select, #contact textarea, #contact button{
-  width: 50%;
+#contact label, #contact input[type=text], #contact select, #contact textarea{
+  border-radius: 0.45em ;
   min-width: 40em;
   padding: 0.2em;
   margin-bottom: 1em;
   font-size: 1.2em;
+  font-family: Helvetica, sans-serif;
+  resize: none;
+}
+.formSubmit
+{
+  width: 100%;
+  padding: 0.5em;
+  background-color: rgba(23, 179, 0, 0.85);
+  color: #292929;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: bolder;
   font-family: Helvetica, sans-serif;
 }
 /* Mobile */
