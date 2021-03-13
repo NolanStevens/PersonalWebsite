@@ -120,7 +120,7 @@ padding: 0.3em;
 {
   margin: -0.88em -0.75em -0.88em -0.75em;
   padding: 0em;
-  max-width: 38em;
+  width: 38em;
   transition: .5s ease;
 }
 .projectDescContainer
@@ -133,6 +133,7 @@ padding: 0.3em;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+  width: 30em;
   height: 3em;
   padding: 9.2em 4em 9.2em 4em;
   background: rgba(0, 0, 0, 0.6);
@@ -155,13 +156,12 @@ padding: 0.3em;
 }
 #contact embed
 {
-  width: 50%;
-  min-width: 50em;
+  width: 47.5em;
   min-height: 31em;
 }
 #contact label, #contact input[type=text], #contact select, #contact textarea{
   border-radius: 0.45em ;
-  min-width: 40em;
+  width: 40em;
   padding: 0.2em;
   margin-bottom: 1em;
   font-size: 1.2em;
@@ -191,12 +191,12 @@ padding: 0.3em;
   .headContainer h2,h3{font-size: 0.8em;}
 
   /*Buttons*/
-  .landingButtons
+  .transparentButtonContainer
   {
     width: 15em;
     transform: translate(-50%, 20%);
   }
-  .landingButtons button
+  .transparentButtonContainer button
   {
     padding: 0.5em;
     min-width: 13em;
@@ -206,5 +206,40 @@ padding: 0.3em;
     color: #17B300;
     border: none;
     cursor: pointer;
+  }
+  /*Projects*/
+  #projects img
+  {
+    width: 22em;
+  }
+  .projectDescContainer
+  {
+    width: 22em;
+    height: 12.4em;
+    padding: 0em;
+    background: rgba(0, 0, 0, 0.6);
+    top: 48.5%;
+    left: 50%;
+  }
+  .projectDesc
+  {
+    color: #fff;
+    width: 30em;
+    font-size: 70%;
+    transform: translatey(50%);
+  }
+  /*Contact*/
+  #contact embed
+  {
+    /*width: 22em;*/
+    width: 5%;
+    min-width: 25em;
+  }
+  #contact label, #contact input[type=text], #contact select, #contact textarea
+  {
+    width: 20em;
+    padding: 0.2em;
+    margin-bottom: 1em;
+    font-size: 1.2em;
   }
 }
