@@ -4,7 +4,7 @@
     border: auto;
      
     overflow-x: hidden;
-    scroll-behavior: smooth;  
+    scroll-behavior: smooth;
     -ms-overflow-style: none;  /* Hide scrollbar on IE and Edge browsers  */
     scrollbar-width: none;     /* Hide scrollbar on FireFox based browsers */
   }
@@ -70,7 +70,7 @@
   padding: 1.5em;
 }
 /* Buttons */
-.landingButtons
+.transparentButtonContainer
 {
   width: 49.5em;
   position: absolute;
@@ -78,7 +78,7 @@
   left: 50%;
   transform: translate(-50%, 175%);
 }
-.landingButtons button
+.transparentButtonContainer button
 {
   font-family: 'Source Code Pro', monospace;
   padding: 0.15em 1.57em 0.15em 1.75em;
@@ -88,7 +88,7 @@
   border: none;
   cursor: pointer;
 }
-.landingButtons button:hover, button::selection
+.transparentButtonContainer button:hover, button::selection
 {
   background-color: rgba(27.5, 27.5, 27.5, 1);
 }
@@ -97,12 +97,17 @@ body
 {
   font-family: Helvetica, sans-serif;
 }
+a:link, a:visited, a:hover, a:active
+{
+  color:#00dd00;
+}
 /* About Me Section */
 .aboutIMG
 {
   width: 100%;
   max-width: 25em;
 }
+/* Projects Sections */
 #projects .flexItem
 {  
   position: relative;
@@ -134,14 +139,30 @@ body
   transform: translatey(-2%);
   width: 30em;
 }
-.projectDesc a:link, a:visited, a:hover, a:active
+.flexItem:hover .projectDescContainer 
 {
-  color:#00dd00;
-}
-.flexItem:hover .projectDescContainer {
   opacity: 1;
 }
-
+/* Contact Section */
+#contact
+{
+  background-color: #444;
+  color: #fff;
+}
+#contact embed
+{
+  width: 50%;
+  min-width: 50em;
+  min-height: 31em;
+}
+#contact label, #contact input[type=text], #contact select, #contact textarea, #contact button{
+  width: 50%;
+  min-width: 40em;
+  padding: 0.2em;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+  font-family: Helvetica, sans-serif;
+}
 /* Mobile */
 @media only screen and (max-width: 768px)
 {
