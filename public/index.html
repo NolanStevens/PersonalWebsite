@@ -16,7 +16,7 @@
         <h1>Nolan Stevens</h1>
         <h2>Web Developer</h2>
         <h3>C++/Java Developer</h3>
-        <div class="flexContainer landingButtons">
+        <div class="flexContainer transparentButtonContainer">
             <button onclick="window.location.href='#aboutMe'">About Me</button>
             <button onclick="window.location.href='#projects'">Projects</button>
             <button onclick="window.location.href='#contact'">Contact</button>
@@ -41,7 +41,7 @@
             <img src="../imgs/Resume.jpg" alt="Language List" class="aboutIMG">
             <h2>Resume Highlights</h2>
             <ul>
-                <li>3.65+ GPA (Official) | 3.72+ GPA (My Calculations)</li>
+                <li>3.65 GPA (Official) | 3.72 GPA (My Calculations)</li>
                 <li>2+  Years Web Development</li>
                 <li>1+ Years Git & Linux</li>
                 <li>1+ Years Graphics Design</li>
@@ -72,10 +72,10 @@
         </div>
     </div>
     <!-- Projects -->
-    <h1 class="centeredText">Current Projects</h1>
+    <h1 class="centeredText" id="projects">Current Projects</h1>
     <div class="flexContainer" id="projects">
         <div class="flexItem">
-            <a><img src="../imgs/Gadeus.jpg" alt="Gadeus"></a>
+            <a><img src="../imgs/ArchLogo.jpg" alt="ArchLinux Logo"></a>
             <div class="projectDescContainer">
                 <div class="projectDesc">
                     <h2>Arch Install Script - Forked</h2>
@@ -84,7 +84,7 @@
             </div>
         </div>
         <div class="flexItem">
-            <a><img src="../imgs/Gadeus.jpg" alt="Gadeus"></a>
+            <a><img src="../imgs/GENION.png" alt="GENION Logo"></a>
             <div class="projectDescContainer">
                 <div class="projectDesc">
                     <h2>GENION</h2>
@@ -93,7 +93,7 @@
             </div>
         </div>
         <div class="flexItem">
-            <a><img src="../imgs/Gadeus.jpg" alt="Gadeus"></a>
+            <a><img src="../imgs/BackgroundImage.png" alt="Mountain View"></a>
             <div class="projectDescContainer">
                 <div class="projectDesc">
                     <h2>Personal Website</h2>
@@ -112,7 +112,7 @@
             </div>
         </div>
         <div class="flexItem">
-            <a><img src="../imgs/Gadeus.jpg" alt="Gadeus"></a>
+            <a><img src="../imgs/Entares.png" alt="Entares Logo"></a>
             <div class="projectDescContainer">
                 <div class="projectDesc">
                     <h2>YouTube</h2>
@@ -122,7 +122,7 @@
             </div>
         </div>
         <div class="flexItem">
-            <a><img src="../imgs/Gadeus.jpg" alt="Gadeus"></a>
+            <a><img src="../imgs/Gaming.jpg" alt="RGB Gaming Setup"></a>
             <div class="projectDescContainer">
                 <div class="projectDesc">
                     <h2>Games</h2>
@@ -133,8 +133,27 @@
         </div>
     </div>
     <!-- Contact -->
-    <div class="flexContainer" id="contact">
-
+    <div id="contact">
+        <h1 class="centeredText">Contact Me</h1>
+        <a href="../imgs/NolanStevensResume.pdf" download="NolanStevensResume"><p class="centeredText">Download my resume</p></a>
+        <div class="flexContainer">
+            <div class="flexItem">
+                <embed src="../imgs/NolanStevensResume.pdf"/>
+            </div>
+            <div class="flexItem">
+                <form action="" method="post">
+                    <label for="fname">First Name</label><br>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.."> <br>
+                    <label for="lname">Last Name</label><br>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+                    <label for="company">Company</label><br>
+                    <input type="text" id="company" name="lastname" placeholder="Your company"><br>
+                    <label for="subject">Subject</label><br>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea><br>
+                    <button>Submit</button>
+                </form>
+            </div>
+        </div>
     </div>
     <!-- <a href="../imgs/NolanStevensResume.pdf" download="NolanStevens-Resume.pdf"><button>Resume</button></a> -->
     <!-- Footer -->
