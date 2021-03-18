@@ -42,7 +42,7 @@
 }
 
 /* Descriptions*/
-.headContainer h2,h3
+.headContainer h2, .headContainer h3
 {
   font-size: 1.75em;
   color: #0bb7b8;
@@ -88,7 +88,7 @@
   border: none;
   cursor: pointer;
 }
-.transparentButtonContainer button:hover, button::selection
+.transparentButtonContainer button:hover, .transparentButtonContainer button::selection
 {
   background-color: rgba(27.5, 27.5, 27.5, 1);
 }
@@ -207,7 +207,7 @@ footer
   .headContainer h1{font-size: 2.5em;}
 
   /* Descriptions*/
-  .headContainer h2,h3{font-size: 0.8em;}
+  .headContainer h2,.headContainer h3{font-size: 0.8em;}
 
   /*Buttons*/
   .transparentButtonContainer
