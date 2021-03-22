@@ -25,7 +25,7 @@
     <!-- About Me -->
     <div id="aboutMe">
         <h1 class="centeredText">About Me</h1>
-        <h3 class="centeredText">I've wanted to become a programmer since I was 9. All my education and plans have been programming focused since then. I love learning new and better methods (pun intended) to solve problems. Started making websites and games at age 13. I am often chosen to be team leader and have been praised on my flexibility, communication, teamwork, and leadership skills.I specialize in web development, but also enjoy development in other environments and languages like Java, C#/C++, Python, etc.</h3>
+        <h3 class="centeredText">I've wanted to become a programmer since I was 9. All my education and plans have been programming focused since then. I love learning new and better methods (pun intended) to solve problems. Started making websites and games at age 13. I am often chosen to be team leader and have been praised on my flexibility, communication, teamwork, and leadership skills. I specialize in web development, but also enjoy development in other environments and languages like Java, C#/C++, Python, etc.</h3>
         <div class="flexContainer aboutSection">
             <div class="flexItem">
                 <img src="../imgs/CodeImage.jpg" alt="Language List" class="aboutIMG">
@@ -138,23 +138,23 @@
     </div>
     <!-- Contact -->
     <div id="contact">
-        <h1 class="centeredText">Contact Me (Doesn't currently send message)</h1>
+        <h1 class="centeredText">Contact Me</h1>
         <!--<a href="../imgs/NolanStevensResume.pdf" download="NolanStevensResume"><p class="centeredText">Download my resume</p></a>-->
         <div class="flexContainer">
             <div class="flexItem">
                 <embed src="../imgs/NolanStevensResume.pdf"/>
             </div>
             <div class="flexItem">
-                <form action="" method="post">
+                <form action="?">
                     <label for="fname">First Name</label><br>
                     <input type="text" id="fname" name="firstname" placeholder="Your name.."> <br>
                     <label for="lname">Last Name</label><br>
                     <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
                     <label for="company">Company</label><br>
-                    <input type="text" id="company" name="company" placeholder="Your company"><br>
+                    <input type="text" id="company" name="company" placeholder="Your company.."><br>
                     <label for="subject">Subject</label><br>
                     <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea><br>
-                    <button class="formSubmit">Submit</button>
+                    <button class="formSubmit" id="contactBTN" type="button">Submit</button>
                 </form>
             </div>
         </div>
@@ -163,7 +163,14 @@
     <footer>
         <p>&copy 2021 Nolan Stevens</p>
         <p>Contact: <a href="mailto:nolan.stevens@student.sl.on.ca">nolan.stevens@student.sl.on.ca</a></p>
-        <p>Social: <a href="https://github.com/NolanStevens">GitHub</a> <a href="http://"></a></p>
+        <p>Socials: <a href="https://github.com/NolanStevens" target="_blank">GitHub</a> <a href="https://www.linkedin.com/in/nolan-stevens" target="_blank">LinkedIn</a></p>
     </footer>
+    <!-- Temp script until email is setup -->
+    <script>
+        contactBTN = document.getElementById("contactBTN")
+        contactBTN.onclick = ()=> {
+            alert("Contact is W.I.P. and doesn't current send emails")
+        }
+    </script>
 </body>
 </html>
