@@ -2,7 +2,7 @@
 
 ![Version](https://img.shields.io/badge/version-v0.3a-blue?style=for-the-badge) ![Build](https://img.shields.io/badge/build_date-03/18/2021-brightgreen?style=for-the-badge) ![Maintenance](https://img.shields.io/badge/maintained-YES-orange?style=for-the-badge)
 
-![Screenshot](https://github.com/NolanStevens/PersonalWebsite/imgs/WebsiteScreenshot.png)
+![Screenshot](https://raw.githubusercontent.com/NolanStevens/PersonalWebsite/master/imgs/WebsiteScreenshot.png)
 
 A professional personal website coded in HTML, CSS, & JS.
 
